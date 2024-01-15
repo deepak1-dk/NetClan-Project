@@ -9,78 +9,7 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="54ab71c7-9b47-4988-97cd-e530ceae42c1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../App/src/main/java/com/example/earningapp/model/Question.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../App/src/main/res/raw/sorry.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../App/src/main/res/raw/winner.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../NetClanAssignment/app/src/main/res/drawable/refine.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/netclanproject/Adapter/FragmentAdapter.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/netclanproject/Adapter/UserAdapter.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/netclanproject/Fragment/BusinessFragment.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/netclanproject/Fragment/MerchantFragment.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/netclanproject/Fragment/PersonalFragment.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/netclanproject/RefineActivity.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/netclanproject/model/UserData.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/backgroundnavdrawer2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/backgroundnavdrower.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/baseline_ac_unit_24.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/baseline_arrow_back_ios_24.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/baseline_chat_24.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/baseline_group_24.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/baseline_person_24.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/baseline_remove_red_eye_24.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/baseline_settings_24.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/bookmark_4731305.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/briefcase.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/businesscards.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/contact.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/contact1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/editcardview.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/english1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/explore1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/filter.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/group.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/heart.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/jobsearch.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/map.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/network.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/network1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/notepad.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/refine.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ring.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/search_view_background.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/seller.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/shopbags.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/textviewrefine.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/user.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_refine.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/card_item.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_business.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_merchant.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_personal.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/nav_header.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/menu/bottom_menu.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/menu/nav_menu.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../QuoteApp/app/src/main/assets/quote.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../QuoteApp/app/src/main/java/com/example/quoteapp/quoteprojectswithcompose/model/DataManager.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../QuoteApp/app/src/main/java/com/example/quoteapp/quoteprojectswithcompose/model/Quote.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../QuoteApp/app/src/main/java/com/example/quoteapp/quoteprojectswithcompose/screen/QuoteDetailScreen.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../QuoteApp/app/src/main/java/com/example/quoteapp/quoteprojectswithcompose/screen/QuoteList.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../QuoteApp/app/src/main/java/com/example/quoteapp/quoteprojectswithcompose/screen/QuoteListItem.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../QuoteApp/app/src/main/java/com/example/quoteapp/quoteprojectswithcompose/screen/QuoteListScreen.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../QuoteApp/app/src/main/java/com/example/quoteapp/quoteprojectswithcompose/ui/theme/Color.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../QuoteApp/app/src/main/java/com/example/quoteapp/quoteprojectswithcompose/ui/theme/Theme.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../QuoteApp/app/src/main/java/com/example/quoteapp/quoteprojectswithcompose/ui/theme/Type.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../QuoteApp/app/src/main/res/font/montserrat_regular.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../App/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../App/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../App/src/main/java/com/example/earningapp/Fragment/HomeFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../App/src/main/java/com/example/earningapp/Fragment/HomeFragment.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../App/src/main/java/com/example/earningapp/QuizActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../App/src/main/java/com/example/earningapp/QuizActivity.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../App/src/main/java/com/example/earningapp/adapter/CategoryAdapter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../App/src/main/java/com/example/earningapp/adapter/CategoryAdapter.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../App/src/main/res/layout/activity_quiz.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../App/src/main/res/layout/activity_quiz.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../App/src/main/res/layout/activity_splash_screen.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../App/src/main/res/layout/activity_splash_screen.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../LearningPurpose/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../LearningPurpose/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../NetClean/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../NetClean/.idea/misc.xml" afterDir="false" />
-    </list>
+    <list default="true" id="54ab71c7-9b47-4988-97cd-e530ceae42c1" name="Changes" comment="Init VCS &amp; Create Base Project" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -104,7 +33,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -207,6 +136,14 @@
       <option name="presentableId" value="Default" />
       <updated>1705074286835</updated>
     </task>
+    <task id="LOCAL-00001" summary="Init VCS &amp; Create Base Project">
+      <created>1705311665794</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1705311665794</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -219,5 +156,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <MESSAGE value="Init VCS &amp; Create Base Project" />
+    <option name="LAST_COMMIT_MESSAGE" value="Init VCS &amp; Create Base Project" />
   </component>
 </project>
