@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    tools:context=".RefineActivity">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/Widget.Design.AppBarLayout">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="60dp">
+
+            <ImageButton
+                android:id="@+id/backButton"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="5dp"
+                android:backgroundTint="@color/toolbar"
+                android:src="@drawable/baseline_arrow_back_ios_24"
+                android:layout_width="50dp"
+                android:layout_height="50dp"/>
+
+            <TextView
+                android:layout_marginStart="20dp"
+                android:layout_marginBottom="4dp"
+                android:layout_gravity="center"
+                android:textColor="@color/white"
+                android:textSize="25sp"
+                android:text="Refine"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <TextView
+        android:textStyle="bold"
+        android:textColor="@color/toolbar"
+        android:textSize="15sp"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="25dp"
+        android:text="Select Your Availability"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <androidx.appcompat.widget.AppCompatSpinner
+        android:id="@+id/spinner"
+        android:layout_gravity="start"
+        android:layout_marginStart="22dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="15dp"
+        android:background="@drawable/textviewrefine"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"/>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:textStyle="bold"
+        android:textColor="@color/toolbar"
+        android:textSize="15sp"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="25dp"
+        android:text="Add Your Status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/statusRefine"
+        android:inputType="textMultiLine"
+        android:textSize="15sp"
+        android:paddingTop="10dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingBottom="20dp"
+        android:minLines="0"
+        android:maxLength="250"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="25dp"
+        android:background="@drawable/textviewrefine"
+        android:text="Hi community! I am open to new connections&quot;😊&quot;"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:id="@+id/validityStatus"
+        android:text="250"
+        android:layout_marginRight="30dp"
+        android:layout_gravity="right"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:textStyle="bold"
+        android:textColor="@color/toolbar"
+        android:textSize="15sp"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="25dp"
+        android:text="Select Hyper local distance"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <androidx.appcompat.widget.AppCompatSeekBar
+        style="@style/Widget.AppCompat.SeekBar.Discrete"
+        android:progress="1"
+        android:max="100"
+        android:layout_marginStart="25dp"
+        android:layout_width="320dp"
+        android:layout_height="70dp"/>
+
+    <TextView
+        android:textStyle="bold"
+        android:textColor="@color/toolbar"
+        android:textSize="15sp"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="25dp"
+        android:text="Select Purpose"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <com.google.android.material.chip.ChipGroup
+        android:forceHasOverlappingRendering="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="25dp"
+        android:id="@+id/chipGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:singleSelection="false">
+
+        <com.google.android.material.chip.Chip
+            android:checked="true"
+            app:chipCornerRadius="40dp"
+            android:checkable="true"
+            android:id="@+id/chipCoffe"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Coffe" />
+
+        <com.google.android.material.chip.Chip
+            app:chipCornerRadius="40dp"
+            android:checkable="true"
+            android:id="@+id/chipBusiness"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Business" />
+
+
+        <com.google.android.material.chip.Chip
+            app:chipCornerRadius="20dp"
+            android:checkable="true"
+            android:id="@+id/chipHobbies"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hobbies" />
+    </com.google.android.material.chip.ChipGroup>
+
+    <com.google.android.material.chip.ChipGroup
+
+        android:layout_marginStart="25dp"
+        android:id="@+id/chipGroup2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:singleSelection="false">
+
+        <com.google.android.material.chip.Chip
+            app:chipCornerRadius="20dp"
+            android:id="@+id/Friendship"
+            android:checkable="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Fringship" />
+
+
+
+
+        <com.google.android.material.chip.Chip
+            android:checkable="true"
+            app:chipCornerRadius="20dp"
+            android:id="@+id/chipMovies"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Movies" />
+
+        <com.google.android.material.chip.Chip
+            android:checkable="true"
+            app:chipCornerRadius="20dp"
+            android:id="@+id/chipDinning"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Dinning" />
+    </com.google.android.material.chip.ChipGroup>
+
+    <com.google.android.material.chip.ChipGroup
+        android:layout_marginStart="25dp"
+        android:id="@+id/chip3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:singleSelection="false">
+
+        <com.google.android.material.chip.Chip
+            android:checkable="true"
+            app:chipCornerRadius="20dp"
+            android:id="@+id/chipDating"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Dating" />
+
+        <com.google.android.material.chip.Chip
+            android:checkable="true"
+            app:chipCornerRadius="20dp"
+            android:id="@+id/chipMatrimony"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Matrimony" />
+
+    </com.google.android.material.chip.ChipGroup>
+
+    <Button
+
+        android:id="@+id/save"
+        android:textSize="15sp"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:backgroundTint="@color/tabcolour"
+        android:text="Save and Explore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+
+
+
+</LinearLayout>
