@@ -4,6 +4,8 @@
         <!-- Customize your light theme here. -->
          <item name="colorPrimary">@color/toolbarColor</item>
          <item name="android:statusBarColor">@color/toolbarColor</item>
+
+        <item name="drawerArrowStyle">@style/DrawerArrowStyle</item>
     </style>
 
     <style name="Theme.NetClanProject" parent="Base.Theme.NetClanProject" />
@@ -22,4 +24,8 @@
         <item name="colorControlNormal">@color/black</item>
         <item name="queryBackground">@color/white</item>
     </style>
+    <style name="DrawerArrowStyle" parent="@style/Widget.AppCompat.DrawerArrowToggle">
+        <item name="color">@color/white</item>
+    </style>
+    
 </resources>
