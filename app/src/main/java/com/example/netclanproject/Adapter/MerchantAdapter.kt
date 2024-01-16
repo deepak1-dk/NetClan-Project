@@ -29,7 +29,8 @@ class MerchantAdapter(private val userList: ArrayList<MerchantData>) :
         holder.binding.nameMerchantCard.text = dataList.userName
         holder.binding.addressMerchantCard.text = dataList.userLocation
         holder.binding.statusMerchant.text = dataList.status
-       // holder.binding.imageViewMerchant.resources.getDrawable(position)
+        holder.binding.imageViewMerchant.setImageResource(dataList.image)
+
     }
 
 

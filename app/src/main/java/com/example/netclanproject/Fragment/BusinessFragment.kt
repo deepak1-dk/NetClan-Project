@@ -40,10 +40,10 @@ class BusinessFragment : Fragment() {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
-        itemList.add(BusinessData("Jai Singh","Noida Within 120 m","Engineer | 1 Year of experience","Hi community! I am available at your service!"))
-        itemList.add(BusinessData("Vikarm Gupta","Gr. Noida Within 10 Km","UI & UX Designer | 2 Years of experience","Hi community! I am available at your service!"))
-        itemList.add(BusinessData("Dev Tomar","Noida Within 1 Km","Wedding Planner | 2 Years of experience","Hi community! I am available at your service!"))
-        itemList.add(BusinessData("Vikas Khatana","Noida Within 2 Km","Android Developer | 1 Year of experience","Hi community! I am available at your service!"))
+        itemList.add(BusinessData("Jai Singh","Noida Within 120 m","Engineer | 1 Year of experience","Hi community! I am available at your service!",R.drawable.profile5))
+        itemList.add(BusinessData("Vikarm Gupta","Gr. Noida Within 10 Km","UI & UX Designer | 2 Years of experience","Hi community! I am available at your service!",R.drawable.profile6))
+        itemList.add(BusinessData("Dev Tomar","Noida Within 1 Km","Wedding Planner | 2 Years of experience","Hi community! I am available at your service!",R.drawable.profile1))
+        itemList.add(BusinessData("Vikas Khatana","Noida Within 2 Km","Android Developer | 1 Year of experience","Hi community! I am available at your service!",R.drawable.profile3))
 
         binding.recyclerViewBusiness.layoutManager = LinearLayoutManager(requireContext())
         var adapter = BusinessAdapter(itemList)

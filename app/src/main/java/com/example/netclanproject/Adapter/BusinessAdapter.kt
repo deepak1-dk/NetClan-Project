@@ -28,5 +28,6 @@ class BusinessAdapter(private val userList: ArrayList<BusinessData>) :
         holder.binding.addressBusinessCard.text = dataList.userLocation
         holder.binding.PurposeBusiness.text = dataList.purpose
         holder.binding.statusBusiness.text = dataList.status
+        holder.binding.imageViewBusiness.setImageResource(dataList.image)
     }
 }

@@ -1,5 +1,7 @@
 package com.example.netclanproject.Adapter
 
+import android.graphics.Bitmap
+import android.graphics.Canvas
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -29,6 +31,9 @@ class UserAdapter(private val userList: ArrayList<UserData>) :
         holder.binding.name.text = dataList.userName
         holder.binding.address.text = dataList.userLocation
         holder.binding.distance.text = dataList.distance
-       // holder.binding.imageView.resources.getDrawable() = dataList.image
+        holder.binding.imageView.setImageResource(dataList.image)
+
+
+
     }
 }

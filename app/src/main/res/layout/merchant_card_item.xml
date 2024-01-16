@@ -112,6 +112,7 @@
         android:id="@+id/imageViewMerchant"
         android:layout_marginTop="30dp"
         android:layout_width="70dp"
+        android:scaleType="centerCrop"
         android:elevation="6dp"
         android:layout_marginStart="10dp"
         app:layout_constraintLeft_toLeftOf="parent"

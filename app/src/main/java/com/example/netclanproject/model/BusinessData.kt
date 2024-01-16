@@ -4,6 +4,7 @@ data class BusinessData(
     val userName : String,
     val userLocation : String,
     val purpose : String,
-    val status : String
+    val status : String,
+    val image : Int
 
     )
