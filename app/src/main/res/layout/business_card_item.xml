@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="210dp">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView"
+        app:cardElevation="5dp"
+        app:cardCornerRadius="30dp"
+        android:background="@drawable/editcardview"
+        android:layout_marginEnd="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="40dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="MissingConstraints">
+
+        <TextView
+            android:textStyle="bold"
+            android:id="@+id/nameBusinessCard"
+            android:textColor="@color/tabcolour"
+            android:textSize="16sp"
+            android:layout_marginTop="30dp"
+            android:layout_marginStart="55dp"
+            android:text="Deepak Khatana"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:id="@+id/addressBusinessCard"
+            android:textColor="@color/toolbar"
+            android:textSize="15sp"
+            android:layout_marginTop="53dp"
+            android:layout_marginStart="55dp"
+            android:text="Noida | Android Developer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <ProgressBar
+            android:id="@+id/progressBar"
+            style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+            android:layout_width="110dp"
+            android:layout_height="12dp"
+            android:layout_marginTop="80dp"
+            android:max="100"
+            android:elevation="8dp"
+            android:progress="20"
+            android:layout_marginStart="50dp"
+            android:layout_marginEnd="12dp"
+            android:progressDrawable="@drawable/drawable_view_progress_batch"
+            app:srcCompat="@drawable/drawable_view_progress_batch"
+            tools:progress="64"/>
+
+        <ImageButton
+            android:layout_marginStart="60dp"
+            android:layout_marginTop="100dp"
+            android:src="@drawable/baseline_phone_24"
+            android:background="@drawable/round_image_button"
+            android:layout_width="30dp"
+            android:layout_height="30dp"/>
+
+        <ImageButton
+            android:layout_marginStart="110dp"
+            android:layout_marginTop="100dp"
+            android:src="@drawable/baseline_person_add_alt_1_24"
+            android:layout_width="30dp"
+            android:background="@drawable/round_image_button"
+            android:layout_height="30dp"/>
+
+
+
+        <TextView
+            android:padding="10dp"
+            android:textStyle="bold"
+            android:id="@+id/PurposeBusiness"
+            android:textColor="@color/toolbar"
+            android:textSize="14sp"
+            android:layout_marginTop="130dp"
+            android:layout_marginStart="20dp"
+            android:text="Coffee | Business | Friendship"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:padding="10dp"
+            android:id="@+id/statusBusiness"
+            android:textColor="@color/toolbar"
+            android:textSize="14sp"
+            android:layout_marginTop="150dp"
+            android:layout_marginStart="20dp"
+            android:text="Hi community! I am open to new connections 😊"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <Button
+            android:id="@+id/inviteButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="210dp"
+            android:backgroundTint="@android:color/transparent"
+            android:text="+ INVITE"
+            android:textColor="@color/toolbar"
+            android:textSize="13sp" />
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.appcompat.widget.AppCompatImageView
+
+        android:backgroundTint="@color/lightfornt"
+        android:background="@drawable/editcardview"
+        android:layout_marginEnd="10dp"
+        android:id="@+id/imageView"
+        android:layout_marginTop="30dp"
+        android:layout_width="70dp"
+        android:elevation="6dp"
+        android:layout_marginStart="10dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_height="80dp"/>
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
